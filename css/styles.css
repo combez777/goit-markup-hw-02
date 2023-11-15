@@ -13,14 +13,12 @@
   --box-shadow-one: rgba(0, 0, 0, 0.12);
   --box-shadow-two: rgba(0, 0, 0, 0.08);
   --box-shadow-three: rgba(0, 0, 0, 0.1);
-  --color-mail-futter:rgba(255, 255, 255, 0.60);
+  --color-mail-futter: rgba(255, 255, 255, 0.6);
 }
-
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--basic-text-color);
-  
 }
 
 .link {
@@ -51,7 +49,7 @@ body {
   letter-spacing: 0.78px;
 }
 
-.logo-white{
+.logo-white {
   color: var(--basic-color);
   font-family: Raleway;
   font-size: 26px;
@@ -72,7 +70,7 @@ body {
   color: var(--first-ligo-color);
 }
 
-.activ-page{
+.activ-page {
   color: var(--first-ligo-color);
 }
 
@@ -143,7 +141,7 @@ body {
   letter-spacing: 1.08px;
 }
 
-.piple{
+.piple {
   background-color: var(--background-color-button);
 }
 
@@ -174,8 +172,13 @@ body {
   letter-spacing: 0.42px;
 }
 
-.contact-footer{
-  color: var(--color-mail-futter)
+.contact-footer {
+  color: var(--color-mail-futter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
 
 button {
@@ -234,7 +237,6 @@ button {
     0px 1px 2px 0px var(--box-shadow-two),
     0px 3px 1px 0px var(--box-shadow-three);
 }
-
 
 .marketing:hover,
 .marketing:focus {
